@@ -1,0 +1,54 @@
+:root {
+  --comfortaa: 'Comfortaa', cursive;
+  --montserrat: 'Montserrat', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --rubik: 'Rubik', sans-serif;
+  --space: 'Space Grotesk', sans-serif;
+
+  --Green_01: #3db079;
+  --Green_02: #64c094;
+  --Green_04: #c5e7d7;
+  --Black_01: #2d3331;
+  --Black_03: #969998;
+  --Black_04: #c0c2c1;
+  --White: #fff;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 77px;
+  font-weight: 600;
+  font-family: var(--rubik);
+  color: var(--Black_01);
+}
+
+.pageDescription {
+  font-family: var(--rubik);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  color: var(--Black_03);
+}
+
+@media screen and(max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .pageDescription {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
